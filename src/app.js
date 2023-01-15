@@ -21,8 +21,6 @@ router.get('/',(req,res)=>{
 app.use('/.netlify/functions/app',router)
 
 
-app.listen(3000,()=>{
-    console.log("Sevrer is up and running on 3000");
-});
+
 
 module.exports.handler = serverless(app);
