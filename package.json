@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build":"./node_modules/.bin/netlify-lambda build src",
+    "build":"netlify-lamba build src",
     "dev": "nodemon app.js"
   },
   "keywords": [],
